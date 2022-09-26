@@ -105,8 +105,8 @@ async def fallen_boot():
         console.print(f"\n[red]Stopping Bot")
         return
     try:
-        await Ass.join_chat("DevilsHeavenMF")
-        await Ass.join_chat("AnonAssociation")
+        await Ass.join_chat("PunjabiChat_Group")
+        await Ass.join_chat("All_type_ki_dinya")
     except:
         pass
     console.print(f"\n┌[red] Bot Started as {BOT_NAME}!")
@@ -214,11 +214,6 @@ async def start_command(_, message):
                     text="💘 ᴄʜᴀɴɴᴇʟ 💘", url=config.SUPPORT_CHANNEL
                 ),
             ],
-            [
-                InlineKeyboardButton(
-                    text="☁ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ☁", url="https://github.com/AnonymousR1025/Fallen-Music"
-                )
-            ],
         ]
     ),
  )
@@ -251,11 +246,6 @@ async def fallen_home(_, CallbackQuery):
                 InlineKeyboardButton(
                     text="💘 ᴄʜᴀɴɴᴇʟ 💘", url=config.SUPPORT_CHANNEL
                 ),
-            ],
-            [
-                InlineKeyboardButton(
-                    text="☁ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ☁", url="https://github.com/AnonymousR1025/Fallen-Music"
-                )
             ],
         ]
     ),
