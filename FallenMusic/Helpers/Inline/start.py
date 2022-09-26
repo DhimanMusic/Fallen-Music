@@ -28,11 +28,6 @@ def start_pannel():
                     text="💘 ᴄʜᴀɴɴᴇʟ 💘", url=config.SUPPORT_CHANNEL
                 ),
             ],
-            [
-                InlineKeyboardButton(
-                    text="☁ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ☁", url="https://github.com/AnonymousR1025/FallenMusic"
-                )
-            ],
         ]
         return buttons
 
@@ -58,11 +53,6 @@ def private_panel():
                 ),
                 InlineKeyboardButton(
                     text="💘 ᴄʜᴀɴɴᴇʟ 💘", url=config.SUPPORT_CHANNEL
-                ),
-            ],
-            [
-                InlineKeyboardButton(
-                    text="☁ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ ☁", url="https://github.com/AnonymousR1025/FallenMusic"
                 ),
             ],
         ]
